@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CAD Portfoliio">
+    <meta name="author" content="Jacoti Forsyth">
+
+    <!-- shows at the tab -->
+    <title>Jacoti Forsyth | CAD Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- website name / logo http://startbootstrap.com-->
+          <a class="navbar-brand" href="#">
+            Jacoti Forsyth</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- A list of the navigation items -->
+             <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li> 
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Settings <span class="caret"></span></a>
+
+              <ul class="dropdown-menu">
+                <li id="light-option" style="display: none;"><a href="#" onclick="setTheme('light'); return false;">Light Mode</a></li>
+                <li id="dark-option"><a href="#" onclick="setTheme('dark'); return false;"> Dark Mode </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="page-header">Jacoti Forsyth
+             <small>CAD Design Portfolio</small>
+            </h1>
+        </div>
+
+      </div>
+
+      <!-- Projects SECTION -->
+      <div id="projects" class="row">
+        <div class="col-lg-12">
+          <h2>Projects</h2>
+        </div>
+      </div>
+      
+      <div class="row">
+
+        <!-- col-md-4 says to use one third of the width -->
+        <div class="col-md-4 portfolio-item">
+          <div class="text-box1">
+            <a href="projects.html#mfg_assem"><img class="img-responsive" src="images/mfg_assem.jpg"></a>
+            <h3><a href="projects.html#mfg_assem">Assembly Line</a></h3>
+            <p>Manufacturing assembly line made for streamlining catheter construction</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <div class="text-box2">
+            <a href="projects.html#rowdy"><img class="img-responsive" src="images/ogreen_rowdy.jpg"></a>
+            <h3><a href="projects.html#rowdy">Rowdy Key Chain</a></h3>
+            <p>Rowdy key chain for a design project in school</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4 portfolio-item">
+          <div class="text-box1">
+            <a href="projects.html#display_kit"><img class="img-responsive" src="images/housing.jpg"></a>
+            <h3><a href="projects.html#display_kit">Display Kit</a></h3>
+            <p>Display kit made to show off the company's technology</p>
+          </div>
+        </div>
+
+      </div>
+
+
+        
+      <!-- ABOUT SECTION -->
+      <div id="about" class="row about-row">
+
+        <div class="col-lg-12">
+          <h2>About Me</h2>
+        </div>
+
+        <!-- Photo -->
+        <div class="col-md-4">
+          <div class="about-photo-box">
+            <img class="img-responsive"
+                src="images/self_portrait.jpg"
+                alt="Self portrait">
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="col-md-8">
+          <div class="text-box1">
+            <p class="h4">
+              I am a plastics engineer who enjoys turning engineering concepts into practical, real-world solutions.
+              My interests include manufacturing, product development, and finding ways to make production processes more efficient and reliable.
+            </p>
+
+            <p class="h4">
+              Through my projects, I explore different aspects of engineering, from developing assembly line concepts to creating bills of materials and manufacturing documentation.
+              I am particularly interested in how thoughtful design and process planning can improve the way products are made.
+            </p>
+
+            <p class="h4">
+              This portfolio is a collection of my engineering work, the skills I have developed, and the problems I have worked to solve.
+              I am always looking to learn, take on new challenges, and find better ways to bring ideas to life.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- SERVICES SECTION -->
+      <div id="services" class="row">
+        <div class="col-lg-12">
+          <h2>Services</h2>
+          <!-- <p>Extra Text Line</p> -->
+          <!-- <div class="text-box1"> -->
+            <ul class="h4">
+              <li>3D CAD Modeling</li>
+              <li>Plastic Design</li>
+              <li>Engineering Drawings</li>
+              <li>Assembly Design</li>
+            </ul>
+          <!-- </div> -->
+
+        </div>
+
+      </div>
+
+      <!-- CONTACT SECTION -->
+       <!-- <div id="contact" class="row">
+        <div class="col-lg-12">
+          <h2>Contact</h2>
+          <p class="h4 contact">Feel free to reach out if you have any questions or would like to discuss a project.</p>
+          <ul class="h4">
+            <li>Email: Jacoti.Forsyth@gmail.com</li>
+            <li>Phone: +1 (978) 496-6950</li>
+            <li><a href="https://www.linkedin.com/in/jacotiforsyth" target="_blank">LinkedIn</a></li>
+            <li>ADD RESUME</li>
+          </ul>
+        </div>
+      </div> -->
+
+      
+
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <!-- <li><a href="#">&laquo;</a></li> -->
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <!-- <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li> -->
+          </ul>        
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+      
+    </div><!-- /.container -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+    <script>
+      function setTheme(theme) {
+        document.body.classList.toggle("dark-mode", theme === "dark");
+
+        document.getElementById("light-option").style.display =
+          theme === "dark" ? "block" : "none";
+
+        document.getElementById("dark-option").style.display =
+          theme === "dark" ? "none" : "block";
+      }
+
+      // Set the correct option on page load
+      setTheme("light");
+    </script>
+
+    <footer class="bottom-bar">
+        <div class="container">
+          <div class="footer-top">
+            <p>Engineering, Design & Manufacturing</p>
+          </div>
+
+          <div class="footer-bottom">
+            <p> Jacoti Forsyth &copy; <span id="getCurrentDate"></span></p>
+
+            <ul class="footer-links">
+              <li> Jacoti.Forsyth@gmail.com</li>
+              <li> +1 (978) 496-6950</li>
+              <li><a href="./resume.pdf" download="resume.pdf"
+                onclick="return confirm('Would you like to open my resume?')">
+                Resume</a></li>
+              <li> <a href="https://www.linkedin.com/in/jacotiforsyth" target="_blank" rel="noopener noreferrer">LinkedIn</a> </li>
+            </ul>
+          </div>
+        </div>
+        
+      </footer>
+
+        <script type="text/javascript"> 
+          var dt = new Date();
+          document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+        </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CAD Portfoliio">
+    <meta name="author" content="Jacoti Forsyth">
+
+    <!-- shows at the tab -->
+    <title>Jacoti Forsyth | CAD Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- website name / logo http://startbootstrap.com-->
+          <a class="navbar-brand" href="index.html">
+            Jacoti Forsyth</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- A list of the navigation items -->
+            <li><a href="#mfg_assem">Assembly Line</a></li>
+            <li><a href="#rowdy">Rowdy Key Chain</a></li>
+            <li><a href="#display_kit">Display Kit</a></li> 
+            <li><a href="#die">Die Design</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Settings <span class="caret"></span></a>
+
+              <ul class="dropdown-menu">
+                <li id="light-option" style="display: none;"><a href="#" onclick="setTheme('light'); return false;">Light Mode</a></li>
+                <li id="dark-option"><a href="#" onclick="setTheme('dark'); return false;"> Dark Mode </a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="page-header">Jacoti Forsyth
+             <small>Design Portfolio Projects</small>
+            </h1>
+        </div>
+
+      </div>
+
+      <!-- First Project Section -->
+      <div id="mfg_assem" class="row">
+        <div class="col-lg-12">
+          <h2>Manufacturing Assembly Line</h2>
+          
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="text-box1">
+          <!-- col-md-4 says to use one third of the width -->
+          <div class="col-md-6 portfolio-item">
+            <img class="img-responsive" src="images/mfg_assem.jpg">
+            <h3>Assembly Line</h3>
+            <p></p>
+          </div>
+
+          <div class="col-md-6 portfolio-item">
+            <img class="img-responsive" src="images/BOM_mfg_assem.jpg">
+            <h3>Bill of Materials</h3>
+            <p></p>
+          </div>
+          <p class="h4">This is the assembly line project I made for the manufacturing team to streamline catheter production</p>
+        </div>
+
+      </div>
+
+
+      <!-- Second Project Section -->
+      <div id="rowdy" class="row">
+        <div class="col-lg-12">
+          <h2>Rowdy Key Chain</h2>
+          
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="text-box2">
+          <!-- col-md-4 says to use one third of the width -->
+          <div class="col-md-2 portfolio-item">
+            <img class="img-responsive" src="images/a_insert_rowdy.jpg">
+            <h3>Mold A side</h3>
+            <p></p>
+          </div>
+
+          <div class="col-md-2 portfolio-item">
+            <img class="img-responsive" src="images/b_insert_rowdy.jpg">
+            <h3>Mold B side</h3>
+            <p></p>
+          </div>
+
+          <div class="col-md-4 portfolio-item">
+            <img class="img-responsive" src="images/rowdy_shot_progression.jpg">
+            <h3>Rowdy Shot Progression</h3>
+            <p></p>
+          </div>
+
+          <div class="col-md-4 portfolio-item">
+            <img class="img-responsive" src="images/green_rowdy.jpg">
+            <h3>Fully Assembled Key Chain</h3>
+            <p></p>
+          </div>
+          <p class="h4">This is an overmolded Umass Lowell Rowdy the Riverhawk themed functional key chain</p>
+        </div>
+
+      </div>
+
+
+      <!-- Third Project Section -->
+      <div id="display_kit" class="row">
+        <div class="col-lg-12">
+          <h2>Display Kit</h2>
+          <p>This is a display kit I made to show off the company's technology for a trade show</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- col-md-4 says to use one third of the width -->
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive" src="images/housing.jpg">
+          <h3>Solidworks Assembly</h3>
+          <p></p>
+        </div>
+
+      </div>
+
+
+      <!-- Fourth Project Section -->
+      <div id="die" class="row">
+        <div class="col-lg-12">
+          <h2>Die Design</h2>
+          <p>This is a die designed for extrusion of core / shell filament, 
+            shown are the cross sections of the flow for both core and shell filaments</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- col-md-4 says to use one third of the width -->
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive" src="images/cross_section_core_flow.jpg">
+          <h3>Core Flow Cross Section</h3>
+          <p></p>
+        </div>
+
+        <!-- col-md-4 says to use one third of the width -->
+        <div class="col-md-6 portfolio-item">
+          <img class="img-responsive" src="images/cross_section_shell_flow.jpg">
+          <h3>Shell Flow Cross Section</h3>
+          <p></p>
+        </div>
+
+      </div>
+      
+
+      <!-- <hr> -->
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <!-- <li><a href="#">&laquo;</a></li> -->
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <!-- <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li> -->
+          </ul>        
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <!-- <hr> -->
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            
+          </div>
+        </div>
+      </footer>
+      
+    </div><!-- /.container -->
+
+    <script type="text/javascript"> 
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+    <script>
+      function setTheme(theme) {
+        document.body.classList.toggle("dark-mode", theme === "dark");
+
+        document.getElementById("light-option").style.display =
+          theme === "dark" ? "block" : "none";
+
+        document.getElementById("dark-option").style.display =
+          theme === "dark" ? "none" : "block";
+      }
+
+      // Set the correct option on page load
+      setTheme("light");
+    </script>
+
+    <footer class="bottom-bar">
+        <div class="container">
+          <div class="footer-top">
+            <p>Engineering, Design & Manufacturing</p>
+          </div>
+
+          <div class="footer-bottom">
+            <p> Jacoti Forsyth &copy; <span id="getCurrentDate"></span></p>
+
+            <ul class="footer-links">
+              <li> Jacoti.Forsyth@gmail.com</li>
+              <li> +1 (978) 496-6950</li>
+              <li><a href="./resume.pdf" download="resume.pdf"
+                onclick="return confirm('Would you like to open my resume?')">
+                Resume</a></li>
+              <li> <a href="https://www.linkedin.com/in/jacotiforsyth" target="_blank" rel="noopener noreferrer">LinkedIn</a> </li>
+            </ul>
+          </div>
+        </div>
+        
+      </footer>
+
+        <script type="text/javascript"> 
+          var dt = new Date();
+          document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+        </script>
+
+  </body>
+
+</html>
