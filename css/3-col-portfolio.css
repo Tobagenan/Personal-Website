@@ -3,6 +3,7 @@ body {
 }
 
 .portfolio-item {
+    display: block;
     margin-bottom: 25px;
 }
 
@@ -15,6 +16,7 @@ footer {
 }
 
 .portfolio-item img {
+    display: block;
     width: 100%;
     height: 250px;
     object-fit: contain;
@@ -56,20 +58,20 @@ footer {
 }
 
 /* Text box */
-.text-box1 {
-    background-color: #DCEEFF;
+.text-box1, 
+.text-box2  {
     padding: 25px;
     border-radius: 12px;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
 }
 
+.text-box1 {
+    background-color: #DCEEFF;
+}
 .text-box2 {
     background-color: #DDEFE3;
-    padding: 25px;
-    border-radius: 12px;
-    width: 100%;
-    height: auto;
 }
 
 /* Mobile layout */
