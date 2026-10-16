@@ -57,6 +57,63 @@ footer {
     height: auto;
 }
 
+.photo-box,
+.photo-box1,
+.photo-box2 {
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-box img,
+.photo-box1 img,
+.photo-box2 img {
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.photo-box {
+    background-color: #DDEFE3;
+}
+.photo-box1 {
+    background-color: #DCEEFF;
+}
+.photo-box2 {
+    background-color: #ffdcdc;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.image-grid .photo-box,
+.image-grid .photo-box1,
+.image-grid .photo-box2 {
+    box-sizing: border-box;
+    min-width: 0;
+    width: 100%;
+}
+
+.image-grid img {
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Text box */
 .text-box1, 
 .text-box2  {
