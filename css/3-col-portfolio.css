@@ -5,21 +5,36 @@ body {
 .portfolio-item {
     display: block;
     margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 footer {
     margin: 0px 0;
 }
 
-#about, #services, #contact {
+#about, #services, #contact, #skills {
     margin: 50px 0;
 }
 
 .portfolio-item img {
     display: block;
     width: 100%;
-    height: 250px;
+    height: auto;
+    max-height: 250px;
+    /* max-width: 600px; */
     object-fit: contain;
+}
+
+/* could add in the rowdy images once they're fixed */
+#display-kit-img{
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.img-responsive {
+    border-radius: 12px;
 }
 
 .portfolio-item h3,
@@ -79,6 +94,7 @@ footer {
     display: block;
     margin: 0 auto;
     object-fit: contain;
+    border-radius: 12px;
 }
 
 .photo-box {
@@ -129,6 +145,51 @@ footer {
 }
 .text-box2 {
     background-color: #DDEFE3;
+}
+
+#skills .text-box1 h3,
+#skills .text-box2 h3 {
+    margin-top: 0;
+    padding-top: 0px;
+}
+
+#about .text-box1 ,
+#about .text-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-box1 .portfolio-item {
+    margin-bottom: 0;
+}
+
+/* Project breakdown grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.project-grid .text-box1,
+.project-grid .text-box2 {
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.project-grid .text-box1:hover,
+.project-grid .text-box2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile and tablet layout */
+@media (max-width: 991px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Mobile layout */
