@@ -185,6 +185,24 @@ img.img-responsive {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+.home-preview .text-box1,
+.home-preview .text-box2 {
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.home-preview .text-box1:hover,
+.home-preview .text-box2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.home-preview {
+    margin-top: 5px;
+}
+
 /* Mobile and tablet layout */
 @media (max-width: 991px) {
     .project-grid {
