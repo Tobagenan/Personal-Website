@@ -146,16 +146,7 @@
 
         <div class="photo-box">
           <!-- col-md-4 says to use one third of the width -->
-          <div class="col-md-2 portfolio-item">
-            <img id= "rowdy-img" class="img-responsive" src="images/a_insert_rowdy.jpg">
-            <h3>Mold A side</h3>
-          </div>
-
-          <div class="col-md-2 portfolio-item">
-            <img id= "rowdy-img" class="img-responsive" src="images/b_insert_rowdy.jpg">
-            <h3>Mold B side</h3>
-            <p></p>
-          </div>
+          
 
           <div class="col-md-4 portfolio-item">
             <img id= "rowdy-img" class="img-responsive" src="images/rowdy_shot_progression.jpg">
@@ -175,57 +166,115 @@
 
       <!-- Text boxes on breakdown -->
       <div class="row" > <!-- I want to get a cool looking picture for the top, maybe the full mold assembly -->
-        <div class="text-box1">
-          <h2>Project Overview</h2>
-          <p class="h4">As part of an undergraduate engineering project at UMass Lowell, my team was challenged to take a product from initial concept through manufacturing using injection molding. 
-            We developed a functional keychain inspired by Rowdy the Riverhawk, the university’s mascot, with our own added manufacturing challenge: 
-            bringing back a two-step overmolding process that had not been used in eight years.
-            <br>
-            My role focused on leading the part design and contributing to mold design, CNC machining, and the preparation and execution of the injection molding process. 
-            The project provided hands-on experience translating a product concept into a manufacturable part through close collaboration across design, simulation, tooling, and production.</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-box1">
+              <h2>Project Overview</h2>
+              <p class="h4">As part of an undergraduate engineering project at UMass Lowell, my team was challenged to take a product from initial concept through manufacturing using injection molding. 
+                We developed a functional keychain inspired by Rowdy the Riverhawk, the university’s mascot, with our own added manufacturing challenge: 
+                bringing back a two-step overmolding process that had not been used in eight years.
+                <br><br>
+                My role focused on leading the part design and contributing to mold design, CNC machining, and the preparation and execution of the injection molding process. 
+                The project provided hands-on experience translating a product concept into a manufacturable part through close collaboration across design, simulation, tooling, and production.</p>
+
+            </div>
+          </div>
+          <div class="col-md-6 portfolio-item">
+              <div class="photo-box">
+                <div class="row">
+                  <div class="col-xs-6 portfolio-item">
+                    <img class="img-responsive" src="images/.jpg" alt="Mold with inserts">
+                    <h3>Mold A side</h3>
+                  </div>
+
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row" >
+
+          <div class="col-md-6">
+            <div class="text-box2"> <!-- Put the pictures of the molds here -->
+              <h2>The Challenge</h2>
+              <p class="h4">The project required more than creating a functional product. 
+                The part had to be designed for injection molding, validated for proper material flow, and integrated into a mold capable of supporting two sequential shots.
+                <br><br>
+                Reintroducing overmolding after eight years added another layer of complexity. 
+                The team needed to account for mold layout, ejector pin placement, material flow, and the tooling requirements for a two-stage process. 
+                The mold also required a shutoff valve to enable the transition between shots.
+                <br><br>
+                Success depended on coordinating the part design, mold inserts, machining, and molding process to ensure that each stage worked together.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-item">
+            <div class="photo-box">
+              <div class="row">
+                <div class="col-xs-6 portfolio-item">
+                  <img class="img-responsive" src="images/a_insert_rowdy.jpg" alt="Mold A side">
+                  <h3>Mold A side</h3>
+                </div>
+
+                <div class="col-xs-6 portfolio-item">
+                  <img class="img-responsive" src="images/b_insert_rowdy.jpg" alt="Mold B side">
+                  <h3>Mold B side</h3>
+                </div>
+
+              </div>
+            </div>
+          </div>
 
         </div>
 
         <br>
 
-        <div class="text-box2"> <!-- Put the pictures of the molds here -->
-          <h2>The Challenge</h2>
-          <p class="h4">The project required more than creating a functional product. 
-            The part had to be designed for injection molding, validated for proper material flow, and integrated into a mold capable of supporting two sequential shots.
-            <br>
-            Reintroducing overmolding after eight years added another layer of complexity. 
-            The team needed to account for mold layout, ejector pin placement, material flow, and the tooling requirements for a two-stage process. 
-            The mold also required a shutoff valve to enable the transition between shots.
-            <br>
-            Success depended on coordinating the part design, mold inserts, machining, and molding process to ensure that each stage worked together.</p>
-        
-        </div>
+        <div class="row">
+          <div class="text-box1"> <!-- Want a bunch of pictures here maybe 1 every other talking point: maybe image of the shot, then image of the filling stages -->
+            <h2>Design Approach</h2>
 
-        <br>
+            <h3>1. Part Design &amp; Simulation</h3>
+            <p class="h4">
+              I led the design of the Rowdy the Riverhawk keychain, splitting the part into two sections to accommodate the two-shot overmolding process. Once the initial design was complete, my teammates ran Moldflow simulations to evaluate material filling. I incorporated the simulation results into the design to ensure the geometry supported proper filling and manufacturability.
+            </p>
 
-        <div class="text-box1"> <!-- Want a bunch of pictures here maybe 1 every other talking point: maybe image of the shot, then image of the filling stages -->
-          <h2>Design Approach</h2>
+            <h3>2. Mold Insert Design</h3>
+            <p class="h4">
+              Working with a teammate, I translated the finalized part geometry onto the mold inserts while accounting for the overall mold layout, including ejector pin placement and other tooling constraints. We then simulated the complete flow path in Moldflow as a final theoretical validation before moving into manufacturing.
+            </p>
 
-          <h3>1. Part Design &amp; Simulation</h3>
-          <p class="h4">
-            I led the design of the Rowdy the Riverhawk keychain, splitting the part into two sections to accommodate the two-shot overmolding process. Once the initial design was complete, my teammates ran Moldflow simulations to evaluate material filling. I incorporated the simulation results into the design to ensure the geometry supported proper filling and manufacturability.
-          </p>
+            <h3>3. CNC Machining &amp; Tool Preparation</h3>
+            <p class="h4">
+              I collaborated with a teammate to prepare the mold inserts in Mastercam and CNC-machine them in-house using a variety of cutting tools. After machining, our team polished and deburred the mold components to prepare them for injection molding. We also created a shutoff valve to enable the two-step overmolding process.
+            </p>
 
-          <h3>2. Mold Insert Design</h3>
-          <p class="h4">
-            Working with a teammate, I translated the finalized part geometry onto the mold inserts while accounting for the overall mold layout, including ejector pin placement and other tooling constraints. We then simulated the complete flow path in Moldflow as a final theoretical validation before moving into manufacturing.
-          </p>
+            <h3>4. Injection Molding &amp; Production</h3>
+            <p class="h4">
+              Once the tooling was complete, we assembled the mold and spent two days producing the final parts. Using the short-shot method, we developed the two-stage molding process by first injecting polycarbonate (PC), followed by a polycarbonate/ABS (PC/ABS) blend. This final stage brought together the design, simulation, machining, and tooling work to turn our initial concept into functional keychains.
+            </p>
 
-          <h3>3. CNC Machining &amp; Tool Preparation</h3>
-          <p class="h4">
-            I collaborated with a teammate to prepare the mold inserts in Mastercam and CNC-machine them in-house using a variety of cutting tools. After machining, our team polished and deburred the mold components to prepare them for injection molding. We also created a shutoff valve to enable the two-step overmolding process.
-          </p>
+            <div class="col-md-6 portfolio-item">
+              <div class="photo-box">
+                <div class="row">
+                  <div class="col-xs-6 portfolio-item">
+                    <img class="img-responsive" src="images/a_insert_rowdy.jpg" alt="Mold A side">
+                    <h3>Mold A side</h3>
+                  </div>
 
-          <h3>4. Injection Molding &amp; Production</h3>
-          <p class="h4">
-            Once the tooling was complete, we assembled the mold and spent two days producing the final parts. Using the short-shot method, we developed the two-stage molding process by first injecting polycarbonate (PC), followed by a polycarbonate/ABS (PC/ABS) blend. This final stage brought together the design, simulation, machining, and tooling work to turn our initial concept into functional keychains.
-          </p>
+                </div>
 
+                <div class="row">
+                  <div class="col-xs-6 portfolio-item">
+                    <img class="img-responsive" src="images/b_insert_rowdy.jpg" alt="Mold B side">
+                    <h3>Mold B side</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <br>
@@ -242,6 +291,9 @@
             Most importantly, the project challenged our team to bring back a two-step overmolding process that had not been used in eight years, 
             giving us hands-on experience with a more complex manufacturing workflow than a conventional single-shot injection molding project.</p>
 
+        </div>
+        <div class="photo-box">
+          
         </div>
 
       </div>
