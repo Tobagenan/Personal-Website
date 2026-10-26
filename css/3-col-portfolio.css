@@ -107,6 +107,30 @@ img.img-responsive {
     background-color: #ffdcdc;
 }
 
+#gn_rowdy {
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#exempt {
+    color:#222;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -136,6 +160,7 @@ img.img-responsive {
     padding: 25px;
     border-radius: 12px;
     width: 100%;
+    text-align: left;
     height: auto;
     box-sizing: border-box;
 }
